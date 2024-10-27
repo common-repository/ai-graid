@@ -1,0 +1,61 @@
+
+.aiga-attention p:first-child {
+    margin-top: 2px;
+}
+
+.aiga-attention {
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff2dc;
+    border: 1px solid orange;
+}
+
+
+.aiga-attention-needed {
+    text-align: center;
+}
+
+.aiga-attention-needed h3 {
+    font-size: 18px !important;
+    font-weight: 300 !important;
+}
+
+.aiga-attention-needed .dashicons {
+    font-size: 30px;
+}
+
+.aiga-attention-needed--ok .dashicons {
+    color: limegreen;
+}
+
+.aiga-attention-needed--nok .dashicons {
+    color: orange;
+}
+
+.aiga-attention-needed .aiga-attention-needed--title {
+    font-weight: 300 !important;
+}
+
+
+table.aiga-attention-needed--table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.aiga-attention-needed--table td {
+    background: #f6f7f7;
+    border: 1px solid #ccc;
+}
+.aiga-attention-needed--table th {
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+}
+.aiga-attention-needed--table th, .aiga-attention-needed--table td {
+    padding: 5px;
+}
+.aiga-attention-needed--table {
+    width: 100%;
+}
+
+.cf-html .cf-field__label {display:block !important;}

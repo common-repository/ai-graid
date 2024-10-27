@@ -1,0 +1,24 @@
+{
+    "name": "aigraid/aigraid",
+    "description": "AI Powered essay grading in LearnDash",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "AIGrAid\\Plugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AI Gr-Aid",
+            "email": "info@aigraid.com"
+        },
+        {
+            "name": "Darko Gjorgjijoski",
+            "email": "dg@darkog.com"
+        }
+    ],
+    "require": {
+        "htmlburger/carbon-fields": "^3.6"
+    }
+}
